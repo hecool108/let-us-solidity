@@ -1,0 +1,28 @@
+{
+  "name": "let-us-solidity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "remixd": "remixd -s . --remix-ide https://remix.ethereum.org",
+    "hardhat": "hardhat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hecool108/let-us-solidity.git"
+  },
+  "author": "Tiger Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hecool108/let-us-solidity/issues"
+  },
+  "homepage": "https://github.com/hecool108/let-us-solidity#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.0",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.13.0",
+    "husky": "^8.0.3"
+  }
+}
