@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "remixd": "remixd -s . --remix-ide https://remix.ethereum.org",
-    "hardhat": "hardhat"
+    "remixd": "remixd -s ./ -u https://remix.ethereum.org",
+    "hardhat": "npx hardhat node"
   },
   "repository": {
     "type": "git",
